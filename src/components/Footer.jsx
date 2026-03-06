@@ -21,16 +21,16 @@ const Footer = () => {
                             Elevating healthcare standards with premium medical services, expert specialists, and compassionate, patient-centered care.
                         </p>
                         <div className="flex gap-4">
-                            <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-dark-teal transition-colors text-white">
+                            <a href="/" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-dark-teal transition-colors text-white">
                                 <Facebook size={18} />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-dark-teal transition-colors text-white">
+                            <a href="/" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-dark-teal transition-colors text-white">
                                 <Twitter size={18} />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-dark-teal transition-colors text-white">
+                            <a href="/" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-dark-teal transition-colors text-white">
                                 <Instagram size={18} />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-dark-teal transition-colors text-white">
+                            <a href="/" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-dark-teal transition-colors text-white">
                                 <Linkedin size={18} />
                             </a>
                         </div>
@@ -85,8 +85,8 @@ const Footer = () => {
                 <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p>&copy; {new Date().getFullYear()} MediCare Plus. All rights reserved.</p>
                     <div className="flex gap-6 text-sm">
-                        <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-                        <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+                        <a href="/" className="hover:text-white transition-colors">Privacy Policy</a>
+                        <a href="/" className="hover:text-white transition-colors">Terms of Service</a>
                     </div>
                     <button
                         onClick={scrollToTop}

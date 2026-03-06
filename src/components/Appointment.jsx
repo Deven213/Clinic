@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CheckCircle2, Phone, Mail, Clock } from 'lucide-react';
+import { CheckCircle2, Phone, Mail } from 'lucide-react';
 
 const Appointment = () => {
     const [formData, setFormData] = useState({

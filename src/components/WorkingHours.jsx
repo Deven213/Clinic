@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Clock, CalendarCheck } from 'lucide-react';
+import { MapPin, CalendarCheck } from 'lucide-react';
 
 const WorkingHours = () => {
     return (
